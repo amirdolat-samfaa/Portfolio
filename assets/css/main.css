@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir.eot),
+        url(../fonts/Vazir.woff2) format("woff2"),
+        url(../fonts/Vazir.woff) format("woff"),
+        url(../fonts/Vazir.ttf) format("truetype"),
+}
+
+body{
+    font-family: 'Vazir';
+    background-color: #0c0a34;
+}
+
+body i{
+    cursor: pointer;
+}
+
+body img{
+    cursor: pointer;
+}
+
+/****Navbar****/
+.navbar{
+    background-color: #0c0a34;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.navbar-nav{
+    height: 100px;
+    line-height: 80px;
+}
+
+.navbar li{
+    transition: all 0.5s;
+}
+
+.navbar li:hover{
+    background-color: #FF0513;
+    transition: all 0.5s;
+    height: 100px;
+}
+
+.navbar .navbar-toggler{
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+}
+
+.navbar .btn-light-nav{
+    background-color: #0c0a34;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 55px;
+}
+
+.navbar .btn-light-nav:hover{
+    background-color: #0c0a34;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 55px;
+}
+
+.navbar .n-svg{
+    height: fit-content;
+    width: 100%;
+}
+
+/****SectionOne****/
+.sectionone{
+    background-color: #0c0a34;
+    height: auto;
+}
+
+.sectionon .image-p{
+    height: 550px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.sectionone .dev-red{
+    color: #FF0513;
+}
+
+.sectionone .one-btn{
+    background-color: #0c0a34;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.sectionone .one-btn:hover{
+    background-color: #0c0a34;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.sectionone .two-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.sectionon .img-o{
+    overflow: hidden;
+}
+
+.sectionone .img-o img{
+    width: 65%;
+    border-radius: 10px;
+}
+
+.sectionone .one-svg{
+    position: relative;
+    width: 125px;
+    height: 200px;
+    left: 60px;
+}
+
+/****SectionTwo****/
+.sectiontwo{
+    background-color: #040221;
+    height: auto;
+}
+
+.sectiontwo .btn-light-a{
+    background-color: #040221;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 55px;
+}
+
+.sectiontwo .btn-light-a:hover{
+    background-color: #040221;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 55px;
+}
+
+.sectiontwo .bg-aaaa{
+    background: #0E0C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.sectiontwo .image-aaaa{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.sectiontwo .one-h{
+    position: relative;
+}
+
+.sectiontwo .sec-hr{
+    position: absolute;
+    color: #FF0513;
+    width: 155px;
+    top: 10px;
+    right: -145px;
+    opacity: 1;
+}
+
+/****SectionThree****/
+.sectionthree{
+    background-color: #040221;
+    height: auto;
+}
+
+.sectionthree .two-h{
+    position: relative;
+}
+
+.sectionthree .thr-hr{
+    position: absolute;
+    color: #FF0513;
+    width: 300px;
+    bottom: 8px;
+    right: 170px;
+    opacity: 1;
+}
+
+.sectionthree .btn-pa{
+    width: 10px;
+    color: #FF0513;
+    border: none;
+}
+
+.sectionthree .btn-pa:hover{
+    width: 10px;
+    color: #FF0513;
+    border: none;
+    font-size: larger;
+    transition: all 0.5s;
+}
+
+.sectionthree .btn-pl{
+    width: 10px;
+    color: #fff;
+    border: none;
+}
+
+.sectionthree .btn-pl:hover{
+    width: 10px;
+    color: #fff;
+    border: none;
+    font-size: larger;
+    transition: all 0.5s;
+}
+
+.sectionthree .btn-pw{
+    width: 10px;
+    color: #fff;
+    border: none;
+}
+
+.sectionthree .btn-pw:hover{
+    width: 10px;
+    color: #fff;
+    border: none;
+    font-size: larger;
+    transition: all 0.5s;
+}
+
+.sectionthree .btn-pm{
+    width: 10px;
+    color: #fff;
+    border: none;
+}
+
+.sectionthree .btn-pm:hover{
+    width: 10px;
+    color: #fff;
+    border: none;
+    font-size: larger;
+    transition: all 0.5s;
+}
+
+.sectionthree .bt-ho{
+    transition: all 0.5s;
+    border: none;
+}
+
+.sectionthree .bt-ho:hover{
+    border: none;
+}
+
+.sectionthree .bt-ho:hover{
+    color: #FF0513 !important;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+
+.box img {
+    transition: all 1s;
+    height: inherit;
+}
+
+.box .info {
+    background-color: rgba(225, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
+
+.box:hover .info {
+    opacity: 1;
+}
+
+/* sectionfour */
+
+.sectionfour{
+    background-color: #0c0a34;
+    height: auto;
+}
+
+.sectionfour .threee-hr{
+    position: relative;
+    width: 385px;
+}
+
+.sectionfour .fou-hr{
+    position: absolute;
+    color: #FF0513;
+    width: 100%;
+    opacity: 1;
+    bottom: 0px;
+}
+
+.sectionfour .bibug{
+    color: goldenrod;
+}
+
+/* sectionfive */
+
+.sectionfive{
+    background-color: #040221;
+    height: auto;
+}
+
+.sectionfive .fiv-hr{
+    width: 400px;
+    color: #FF0513;
+    opacity: 1;
+}
+
+.sectionfive .five-image{
+    overflow: hidden;
+}
+
+.sectionfive .img-five{
+    border-radius: 10px;
+    width: 75%;
+}
+
+.sectionfive .bitablet{
+    color: #FF0513;
+}
+
+/* sectionsix */
+
+.sectionsix{
+    background-color: #0c0a34;
+    height: auto;
+}
+.sectionsix .hr-six{
+    position: relative;
+    top: -110px;
+    width: 3px;
+}
+
+.sectionsix .six-hr{
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    background-color: #FF0513;
+    opacity: 1;
+}
+
+.sectionsix input{
+    height: 65px;
+}
+
+.sectionsix .bt-dang{
+    width: 150px;
+    height: 55px;
+    border-radius: 25px;
+}
+
+/* footer */
+
+.sectionfooter{
+    background-color: #040221;
+    height: auto;
+}
+
+.sectionfooter .dfooter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dfooter .hrfooter{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    color: #FF0513;
+    opacity: 1;
+    top: -35px;
+}
